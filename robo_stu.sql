@@ -1,0 +1,4 @@
+ create table robo_stu(id int(6) primary key AUTO_INCREMENT,stu_name varchar(25) not null,stu_fname varchar(25) not null,stu_mname varchar(25) not null,stu_aadhar int(12) not null,stu_dob date,stu_email varchar(30) not null,stu_mob int(10) not null,stu_gender varchar(6) not null,stu_inst varchar(7) not null,stu_instname varchar(150) not null);
+ alter table robo_stu  AUTO_INCREMENT =0001;
+insert into robo_stu(stu_name,stu_fname,stu_mname,stu_aadhar,stu_dob,stu_email,stu_mob,stu_gender,
+stu_inst,stu_instname) values ('ramanan','sivagnanam','barathi',123456789012,'12-12-2018','ramanan@gmail.com',7867046233,'male','college','KSRCT');
